@@ -349,3 +349,65 @@ h2 {
     text-align: center;
   }
 }
+
+/* iPhone 12/13/14, Galaxy S20 (375px - 430px) */
+@media only screen and (min-width: 376px) and (max-width: 430px) {
+  html {
+    font-size: 58%;
+  }
+
+  nav {
+    width: 85%;
+    height: 75%;
+  }
+
+  .login__input {
+    width: 90%;
+  }
+
+  .header--btn {
+    font-size: 36px;
+  }
+
+  .logo {
+    width: 25%;
+  }
+
+  .welcome,
+  .welcome--back {
+    font-size: 22px;
+  }
+}
+
+/* Large phones & small tablets (431px - 768px) */
+@media only screen and (min-width: 431px) and (max-width: 768px) {
+  html {
+    font-size: 60%;
+  }
+
+  nav {
+    width: 75%;
+    height: 70%;
+  }
+
+  .login__input {
+    width: 80%;
+  }
+
+  .header--btn {
+    font-size: 38px;
+  }
+
+  .logo {
+    width: 20%;
+  }
+
+  .welcome,
+  .welcome--back {
+    font-size: 24px;
+  }
+
+  .app {
+    grid-template-columns: 1fr;
+  }
+}
