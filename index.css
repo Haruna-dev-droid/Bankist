@@ -87,18 +87,18 @@ nav {
   cursor: pointer;
 }
 
-.section--image {
-  opacity: 0;
-}
-
-/* ----- HEADER ----- */
-/* header {
+/* .welcome--image {
   opacity: 0;
 } */
 
+/* ----- HEADER ----- */
+header {
+  opacity: 0;
+}
+
 /* MAIN */
 .app {
-  opacity: 0;
+  /* opacity: 0; */
   position: relative;
   max-width: 100rem;
   margin: 20px auto;
