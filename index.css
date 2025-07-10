@@ -37,7 +37,7 @@ nav {
   margin: auto;
 }
 
-.login__input {
+.login {
   width: 200px;
   border: none;
   text-align: center;
@@ -48,15 +48,26 @@ nav {
   border-radius: 5px;
   align-items: center;
 }
+.login__input {
+  width: 200px;
+  border: none;
+  text-align: center;
+  height: 30px;
+  border: 1px solid #fff;
+  margin: 60px auto;
+  /* display: flex; */
+  border-radius: 5px;
+  align-items: center;
+}
 
 .login__input:focus {
   outline: none;
   border: 1px solid #747272;
 }
 
-.login__input--pin {
+/* .login__input--pin {
   margin-top: -40px;
-}
+} */
 .welcome {
   text-align: center;
   font-size: 25px;
@@ -87,9 +98,9 @@ nav {
   cursor: pointer;
 }
 
-/* .welcome--image {
+.welcome--image {
   opacity: 0;
-} */
+}
 
 /* ----- HEADER ----- */
 header {
@@ -308,7 +319,7 @@ h2 {
   font-weight: 600;
 }
 
-@media only screen and (min-width: 375px) and (max-width: 430px) {
+@media only screen and (min-width: 373px) and (max-width: 430px) {
   body {
     padding: 15px;
   }
