@@ -12,31 +12,30 @@
   </head>
   <body>
     <!-- ----- LOGIN PAGE ----- -->
-    <header class="head--er">
-      <nav>
-        <img src="logo.png" alt="Bankist logo" class="logo" />
-        <p class="welcome">Log in to get started</p>
-        <form action="Login">
-          <input
-            type="text"
-            placeholder="User"
-            maxlength="4"
-            class="login__input login__input--user"
-          />
-          <input
-            type="text"
-            placeholder="Pin"
-            maxlength="4"
-            class="login__input login__input--pin"
-          />
-        </form>
-        <button class="header--btn">&rarr;</button>
-      </nav>
-    </header>
-    <section class="welcome--image">
+
+    <nav>
+      <p class="welcome">Log in to get started</p>
+      <img src="logo.png" alt="Logo" class="logo" />
+      <form class="login">
+        <input
+          type="text"
+          placeholder="user"
+          class="login__input login__input--user"
+        />
+        <!-- In practice, use type="password" -->
+        <input
+          type="text"
+          placeholder="PIN"
+          maxlength="4"
+          class="login__input login__input--pin"
+        />
+        <button class="login__btn">&rarr;</button>
+      </form>
+    </nav>
+    <!-- <section class="welcome--image">
       <img src="logo.png" class="login--logo" alt="Bankist logo" />
       <p class="welcome--back">Welcome back</p>
-    </section>
+    </section> -->
 
     <!-- ----- BALANCE ----- -->
     <main class="app">
