@@ -106,7 +106,7 @@ nav {
 
 /* MAIN */
 .app {
-  /* opacity: 0; */
+  opacity: 0;
   position: relative;
   max-width: 100rem;
   margin: 100px auto;
